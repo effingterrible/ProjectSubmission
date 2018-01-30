@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProjectSubmission.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ProjectSubmission.Controllers
 {
@@ -89,18 +90,26 @@ namespace ProjectSubmission.Controllers
             }
             return View(submissions);
         }
-        public async Task<IActionResult> upVote(int id, [Bind("votes")] Submissions submissions)
+        public async Task<IActionResult> upVote(int? id)
         {
-            int i = submissions.votes;
-            i++;
-            if (ModelState.IsValid)
+            if (id == null)
             {
-                submissions.votes = i;
+                return RedirectToAction(nameof(Submission));
+            }
+
+            var submissions = await _context.Submissions.SingleOrDefaultAsync(m => m.ID == id);
+            if (submissions == null)
+            {
+                return RedirectToAction(nameof(Submission));
+            }
+            else
+            {
+                submissions.votes += 1;
                 _context.Update(submissions);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Submission));
             }
-            return View(submissions);
+          //  return RedirectToAction(nameof(Submission));
         }
         // GET: Submissions/Edit/5
         public async Task<IActionResult> Edit(int? id)

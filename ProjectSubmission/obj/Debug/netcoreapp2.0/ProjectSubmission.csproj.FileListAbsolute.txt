@@ -9,3 +9,14 @@ C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\net
 C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.AssemblyInfo.cs
 C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.dll
 C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.pdb
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\bin\Debug\netcoreapp2.0\ProjectSubmission.deps.json
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\bin\Debug\netcoreapp2.0\ProjectSubmission.runtimeconfig.json
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\bin\Debug\netcoreapp2.0\ProjectSubmission.runtimeconfig.dev.json
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\bin\Debug\netcoreapp2.0\ProjectSubmission.dll
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\bin\Debug\netcoreapp2.0\ProjectSubmission.pdb
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.csprojResolveAssemblyReference.cache
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.csproj.CoreCompileInputs.cache
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.AssemblyInfoInputs.cache
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.AssemblyInfo.cs
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.dll
+C:\Users\devri\source\repos\ProjectSubmission\ProjectSubmission\obj\Debug\netcoreapp2.0\ProjectSubmission.pdb
