@@ -1,0 +1,11 @@
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\bin\Release\netcoreapp2.0\ProjectSubmission.deps.json
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\bin\Release\netcoreapp2.0\ProjectSubmission.runtimeconfig.json
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\bin\Release\netcoreapp2.0\ProjectSubmission.runtimeconfig.dev.json
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\bin\Release\netcoreapp2.0\ProjectSubmission.dll
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\bin\Release\netcoreapp2.0\ProjectSubmission.pdb
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.csprojResolveAssemblyReference.cache
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.csproj.CoreCompileInputs.cache
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.AssemblyInfoInputs.cache
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.AssemblyInfo.cs
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.dll
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\obj\Release\netcoreapp2.0\ProjectSubmission.pdb

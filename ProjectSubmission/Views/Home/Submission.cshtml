@@ -1,0 +1,69 @@
+﻿@model ProjectSubmission.Models.SearchByName
+
+@{
+    ViewData["Title"] = "Submissions";
+}
+
+<h2>Project Submissions</h2>
+
+<p>
+    <a asp-action="Create" class="create-button" style="text-decoration: none;">Create New</a>
+</p>
+<form asp-controller="Home" asp-action="Submission" method="get">
+    <p>
+        Search by Submitter:<br/>
+        <select asp-for="submitterNames" asp-items="Model.names">
+            <option value="">All</option>
+        </select>
+        <br />
+        <strong>-OR-</strong><br/>
+        Search by Submission text: 
+        <br/>
+        <input type="text" name="SearchString">
+        <br />
+        <br/>
+        <input type="submit" value="Filter" style="padding: 4px;"/>
+    </p>
+    
+</form>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.userSubmissions[0].submitter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.userSubmissions[0].submission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.userSubmissions[0].refTicket)
+        </th>
+@*        <th>
+            @Html.DisplayNameFor(model => model.userSubmissions[0].votes)
+        </th>*@
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.userSubmissions) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.submitter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.submission)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.refTicket)
+            </td>
+@*            <td>
+                @Html.DisplayFor(modelItem => item.votes)
+            </td>*@
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+               @* <a asp-action="upVote" asp-route-id="@item.ID">Upvote</a>*@
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

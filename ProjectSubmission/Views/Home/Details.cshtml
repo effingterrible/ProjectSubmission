@@ -1,0 +1,36 @@
+﻿@model ProjectSubmission.Models.Submissions
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Submissions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.submitter)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.submitter)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.submission)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.submission)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.refTicket)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.refTicket)
+        </dd>
+    </dl>
+</div>
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |*@
+    <a asp-action="Submission">Back to List</a>
+</div>

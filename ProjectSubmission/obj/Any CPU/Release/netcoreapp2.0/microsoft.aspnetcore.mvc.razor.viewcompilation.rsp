@@ -1,0 +1,18 @@
+C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=ProjectSubmission
+--content-root=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\About.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Admin.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Contact.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Create.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Delete.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Details.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Edit.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Index.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Home\Submission.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Shared\Error.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Shared\_Layout.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\_ViewImports.cshtml
+--file=C:\Users\jDeVries\source\repos\ProjectSubmission\ProjectSubmission\Views\_ViewStart.cshtml
