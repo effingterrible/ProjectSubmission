@@ -60,7 +60,7 @@
                 @Html.DisplayFor(modelItem => item.votes)
             </td>
             <td>
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                @*<a asp-action="Details" asp-route-id="@item.ID">Details</a>*@
                 <a asp-action="upVote" asp-route-id="@item.ID">Upvote</a>
             </td>
         </tr>

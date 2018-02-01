@@ -27,8 +27,8 @@ namespace ProjectSubmission.Controllers
         public async Task<IActionResult> Submission(string submitterNames, string searchString)
         {
             IQueryable<String> nameQuery = from s in _context.Submissions orderby s.submitter select s.submitter;
-            var submits = from s in _context.Submissions
-                select s;
+            var submits = from w in _context.Submissions
+                          select w;
 
             if (!String.IsNullOrEmpty(searchString))
             {
@@ -39,11 +39,10 @@ namespace ProjectSubmission.Controllers
             {
                 submits = submits.Where(x => x.submitter == submitterNames);
             }
-
+            submits = submits.OrderByDescending(s => s.votes);
             var submitterNameVM = new SearchByName();
             submitterNameVM.names = new SelectList(await nameQuery.Distinct().ToListAsync());
             submitterNameVM.userSubmissions = await submits.ToListAsync();
-
             return View(submitterNameVM);
         }
         public async Task<IActionResult> Admin()
@@ -109,7 +108,6 @@ namespace ProjectSubmission.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Submission));
             }
-          //  return RedirectToAction(nameof(Submission));
         }
         // GET: Submissions/Edit/5
         public async Task<IActionResult> Edit(int? id)
